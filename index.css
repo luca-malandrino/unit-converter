@@ -2,13 +2,29 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-} 
+}
 
 body {
-  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
 }
 
 #container1, #container2 {
   text-align: center;
-  width: 750px;
+  width: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 300px;
+  padding: 40px;
+}
+
+#container1 {
+  transform: translate(-50%, -100%);
+  background-color: #3581B8;
+}
+
+#container2 {
+  transform: translate(-50%, 0);
+  background-color: #9DD9D2;
 }
